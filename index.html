@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kanban Moderno</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="index.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Kanban simples</h1>
+    </header>
+    <div class="boards">
+      <div class="board">
+        <h3>A Fazer</h3>
+        <div class="dropzone">
+          <div class="card" draggable="true">
+            <div class="status green"></div>
+            <div class="content">Estudar para ir pra China</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="board">
+        <h3>Em Progresso</h3>
+        <div class="dropzone">
+          <div class="card" draggable="true">
+            <div class="status blue"></div>
+            <div class="content">Estudar PHP</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="board">
+        <h3>Concluído</h3>
+        <div class="dropzone">
+          <div class="card" draggable="true">
+            <div class="status red"></div>
+            <div class="content">
+              Abandonar tudo e vender minha arte na praia
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
